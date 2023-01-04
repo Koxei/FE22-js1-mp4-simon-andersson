@@ -1,4 +1,6 @@
 // Create a timeline with default parameters
+let pauseBtn = document.querySelector('#pause');
+let restartBtn = document.querySelector('#restart');
 var anima = anime.timeline({
   autoplay: false
 });
@@ -66,3 +68,6 @@ anima
 
 
 document.querySelector('#btn').onclick = anima.play;
+
+pauseBtn.addEventListener('click', anima.pause);
+restartBtn.addEventListener('click', anima.reset);
