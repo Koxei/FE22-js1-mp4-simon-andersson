@@ -31,6 +31,28 @@ section img {
     width: 100%;
     height: auto;
 }
+#btns {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    margin: 5rem;
+}
+#pause {
+    cursor: pointer;
+    padding: 0.8rem 5rem;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    color: rgb(95, 2, 22);
+    font-family: 'Press Start 2P', cursive;
+}
+#restart {
+    cursor: pointer;
+    padding: 0.8rem 5rem;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    color: rgb(95, 2, 22);
+    font-family: 'Press Start 2P', cursive;
+}
 #sun {
     z-index: 1;
 }
